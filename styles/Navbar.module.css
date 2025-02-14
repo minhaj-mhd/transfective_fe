@@ -1,0 +1,15 @@
+.navbar-logo{
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+
+  .nav-item{
+    margin-left : 5px;
+    margin-right: 5px;
+
+  }
+  .navbar-btn{
+    background-color:#119391;
+    color: white;
+    border-radius: 20px;
+  }
