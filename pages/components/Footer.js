@@ -6,7 +6,7 @@ function Footer() {
   return (
     <div className={styles["footer-container"]}> {/* Add a container for better structure */}
       <div className={styles["footer-logo"]}>
-        <Image src="/icons/logo.png" alt="Logo" width={300} height={30} />
+        <Image src="/icons/logo.png"  alt="Logo" width={300} height={30} />
       </div>
 
       <div className="container text-center">
@@ -59,7 +59,7 @@ function Footer() {
 
           {/* World Map */}
           <div className="col">
-            <Image src="/Banner/worldmap.png" width={567} height={333} alt="World Map" />
+            <Image src="/Banner/worldmap.png"  width={567} height={333} alt="World Map" />
           </div>
         </div>
       </div>

@@ -17,7 +17,7 @@ function Localization() {
       </div>
 
       {/* Localization Content */}
-      <div className={`container ${styles['Localization-container']}`}>
+      <div className={`container ${styles['localization-container']}`}>
         <div className="row align-items-center">
           
           {/* Left Side: List Group */}

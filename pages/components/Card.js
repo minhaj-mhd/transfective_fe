@@ -6,8 +6,8 @@ function Card({image,title,desc}) {
     <div className={`col `}>
     
     <div className={`card ${styles['why-card']}`}>
-      <Image src={image} className="card-img-top" alt="..."  width={160} height={160}></Image>
-      <div className="card-body">
+      <Image src={image}  alt="..."  width={160} height={160}></Image>
+      <div className={`card-body ${styles['card-align']}`}>
         <h5 className="card-title">{title}</h5>
         <p className="card-text text-secondary">{desc}</p>
       </div>

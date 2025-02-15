@@ -24,7 +24,7 @@ function Proccess() {
         </div>
 
       </div>
-      <div className={`container  ${styles["proccess-list"]}` }>
+  <div className={`container  ${styles["proccess-list"]}` }>
         
 
 <div className="row g-0">

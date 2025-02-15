@@ -5,7 +5,7 @@ function Banner() {
   return (
     <div>
         <div className="banner position-relative">
-  <Image src="/Banner/Banner.jpg" alt="Banner Image" className={styles["card-img"]} width={1404} height={500}></Image>
+  <Image src="/Banner/Banner.jpg" alt="Banner Image"  className={styles["card-img"]} width={1404} height={500}></Image>
   <div className="card-img-overlay">
   <h1 className={styles["card-title"]}>Software Localization & Testing</h1>
     <h4 className={styles["card-subtitle"]}>Ensuring Excellence in Software Localization</h4>
