@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 function Localization() {
   return (
-    <div>
+    <div className={`container ${styles['localization-container']}`}>
       <div className={styles['info']}>
         <h3>Software Localization Explained</h3>
         <p className='text-secondary'>
@@ -17,7 +17,7 @@ function Localization() {
       </div>
 
       {/* Localization Content */}
-      <div className={`container ${styles['localization-container']}`}>
+      <div className={`container `}>
         <div className="row align-items-center">
           
           {/* Left Side: List Group */}

@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from "@/styles/Banner.module.css"
 function Banner() {
   return (
-    <div>
+    <div className={`container ${styles['banner-container']}`}>
         <div className="banner position-relative">
   <Image src="/Banner/Banner.jpg" alt="Banner Image"  className={styles["card-img"]} width={1404} height={500}></Image>
   <div className="card-img-overlay">
